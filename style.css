@@ -173,3 +173,85 @@ canvas{
     font-size: 70px;
 
 }
+
+/* ========================= */
+/* MOBILE RESPONSIVE */
+/* ========================= */
+@media (max-width: 767px) {
+
+  #nav {
+    padding: 0 15px;
+  }
+
+  #nav h3 {
+    font-size: 18px;
+  }
+
+  #nav button {
+    padding: 6px 14px;
+    font-size: 12px;
+  }
+
+
+  #loop {
+    font-size: 38px;
+    top: 30%;
+  }
+
+  #loop h1 {
+    animation-duration: 20s;
+  }
+
+  #page > h3 {
+    font-size: 12px;
+    left: 5%;
+    top: 58%;
+    width: 90%;
+  }
+
+  #page > h4 {
+    font-size: 12px;
+    left: 5%;
+    top: 68%;
+  }
+
+  #page1 #right-text,
+  #page1 #left-text {
+    position: static;
+    width: 100%;
+    text-align: center;
+    padding: 20px;
+  }
+
+  #page1 #right-text h1,
+  #page1 #left-text h1 {
+    font-size: 28px;
+  }
+
+  #page2 #text1,
+  #page2 #text2 {
+    position: static;
+    width: 100%;
+    text-align: center;
+    padding: 20px;
+  }
+
+  #page2 #text1 h1 {
+    font-size: 32px;
+  }
+
+  #page2 #text2 p {
+    font-size: 13px;
+  }
+
+ 
+  #page3 #text3 {
+    position: static;
+    text-align: center;
+    padding: 20px;
+  }
+
+  #page3 #text3 h1 {
+    font-size: 36px;
+  }
+}
